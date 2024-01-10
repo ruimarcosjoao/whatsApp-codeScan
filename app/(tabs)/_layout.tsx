@@ -26,7 +26,7 @@ export default function TabLayout() {
   return (
     <MaterialTopTabs screenOptions={{tabBarLabelStyle: {fontSize: 10, fontWeight: '700', color: '#4ade80'}, tabBarStyle: {backgroundColor: '#0f172a'}, tabBarIndicatorStyle: {backgroundColor: '#4ade80', height: 3, borderRadius: 1.5}}}>
       <MaterialTopTabs.Screen name="index" options={{ title: "Conversas" }} />
-      <MaterialTopTabs.Screen name="two" options={{ title: "Actualizações" }} />
+      <MaterialTopTabs.Screen name="two" options={{ title: "Leitor qr code" }} />
       <MaterialTopTabs.Screen name="group" options={{ title: "Chamadas" }} />
       {/*<Tabs
         screenOptions={{
